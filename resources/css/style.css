@@ -202,33 +202,67 @@ h4{
 
 }
 
-footer{
+.footer{
   background-color: MediumAquamarine;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-top: 1px solid white;
-  align-items: center;
-  display:inline-flex;
-flex-direction: row;
+  align-content: center;
+  height: 140px;
   width: 100%;
-  margin: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin top: 20px;
 
 
 }
 
-.footer-logo{
+#footerid{
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+
+}
+
+.footerbox{
+  align-content: center;
+  padding-top: 20px;
+  margin-left: 760px;
+}
+
+
+#footerlogo{
   color: white;
-  padding-right: 20px;
-  border-right: 1px solid white;
+  padding-right: 10px;
+  border-right: 2px solid white;
+
+
 
 }
+
+
+
+.infooter{
+  align-content: center;
+  margin-left: 750px;
+}
+
+.submenu{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.menu{
+  margin-right: 750px;
+}
+
 
 nav {
 
   align-items: center;
   justify-content: flex-end;
-  margin-left: 720px;
+
 }
 
 nav li {
